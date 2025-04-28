@@ -8,6 +8,9 @@ Place the configuration file in the .vscode folder within your project directory
 
 ### Update: 
 You may need to update the contents of the file if the files in the linux-headers folder change.
+### These Two Lines might need modifications depending on your system:
+                "/usr/src/linux-headers-5.10.0-34-amd64/**",
+                "/usr/src/linux-headers-5.10.0-34-common/**"
 
 ### Functionality: 
 The JSON file will attempt to import all header files and their subfolders.
