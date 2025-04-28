@@ -1,0 +1,23 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/usr/src/linux-headers-5.10.0-34-amd64/**",
+                "/usr/src/linux-headers-5.10.0-34-common/**"
+            ],
+            "defines": [
+                "LINUX",
+                "MODULE",
+                "__KERNEL__"
+            ],
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "linux-gcc-x64"
+        }
+    ],
+    "version": 4,
+	"notes": "This configuration is for Linux kernel development."
+}
